@@ -26,8 +26,8 @@ const Education = () => {
 
           <tr>
               <td>Green Hills Academy, Baruwa Ipaja Lagos State</td>
-              <td>SSCE</td>
-              <td>2016-2019</td>
+              <td>Primary School</td>
+              <td>2007-2013</td>
           </tr>
       </tbody>
   </table>
