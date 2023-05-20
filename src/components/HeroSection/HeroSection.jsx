@@ -4,7 +4,7 @@ import "./HeroSection.css";
 import { Container, Row, Col } from "reactstrap";
 import TypeWriterEffect from "react-typewriter-effect";
 
-import heroImg from "../../assests/Images/michy1.png";
+import heroImg from "../../assests/Images/mitchel.png";
 
 const HeroSection = () => {
   return (

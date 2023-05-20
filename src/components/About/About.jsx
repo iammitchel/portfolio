@@ -50,11 +50,11 @@ const About = () => {
           </Col>
           <Col lg="8" md="9">
             {aboutFilter === "ABOUT" && (
-              <div className="about__content__wrapper d-flex gap-5">
-                <div className="about__img w-25">
+              <div className="about__content__wrapper">
+                <div className="about__img ">
                   <img src={aboutImg} alt="" className="w-100" />
                 </div>
-                <div className="about__content w-75">
+                <div className="about__content">
                   <h2>I'm Mitchel Ogbu</h2>
                   <p>
                     Mitchel is a frontend developer who loves to build and

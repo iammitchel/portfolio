@@ -24,6 +24,7 @@
     transition: 0.3s;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .portfolio__card:hover .portfolio__content{
@@ -50,6 +51,7 @@
     border-radius: 5px;
     height: 400px;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 

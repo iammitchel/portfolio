@@ -1,5 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import { Container} from 'reactstrap';
+import { AiOutlineMenu } from "react-icons/ai";
+
 
 import './header.css';
 
@@ -73,13 +75,16 @@ return (
           <ul className="nav__list">
             {navLinks.map((item, index) => (
               <li className="nav__items" key={index}>
-                <a href={item.url} onClick={handleClick}>{item.display}</a>
+                <a href={item.url} onClick={handleClick}>
+                  {item.display}
+                </a>
               </li>
             ))}
           </ul>
         </div>
-
-        
+        <div className='menu'>
+          <AiOutlineMenu />
+        </div>
       </div>
     </Container>
   </header>

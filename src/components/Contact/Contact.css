@@ -15,3 +15,24 @@
     font-size: 1.1rem;
 
 }
+
+.contact__info-container{
+   display: flex;
+   gap: 30px;
+}
+
+.single__info-box{
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+ @media screen and (max-width: 800px) {
+    .contact__info-container {
+        display: block;
+    }
+
+    .single__info-box {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+ }
