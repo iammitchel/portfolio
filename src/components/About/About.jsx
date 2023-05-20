@@ -19,7 +19,6 @@ const About = () => {
         <Row>
           <Col lg="12" className="mb-5">
             <h2>About Me</h2>
-            {""}
           </Col>
           <Col lg="4" md="3">
             <div className="about__btns d-flex flex-column align-items-center">

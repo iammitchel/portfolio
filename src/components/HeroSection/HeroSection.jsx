@@ -1,16 +1,12 @@
-import React from 'react'
-import './HeroSection.css';
+import React from "react";
+import "./HeroSection.css";
 
-import{Container,Row,Col} from 'reactstrap'
-import TypeWriterEffect from 'react-typewriter-effect';
+import { Container, Row, Col } from "reactstrap";
+import TypeWriterEffect from "react-typewriter-effect";
 
-
-import heroImg from '../../assests/Images/michy1.png';
+import heroImg from "../../assests/Images/michy1.png";
 
 const HeroSection = () => {
-
-
-
   return (
     <section className="hero__section" id="home">
       <Container className="body">
@@ -58,6 +54,6 @@ const HeroSection = () => {
       </Container>
     </section>
   );
-}
+};
 
-export default HeroSection
+export default HeroSection;
