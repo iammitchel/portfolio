@@ -66,7 +66,7 @@ const Header = ({ click }) => {
 return (
   <header className="header" ref={headerRef}>
     <Container>
-      <div className="navigation d-flex align-items-center justify-content-between">
+      <div className="navigation d-flex align-items-center justify-content-between" >
         <div className="logo">
           <h5>PORTFOLIO</h5>
         </div>

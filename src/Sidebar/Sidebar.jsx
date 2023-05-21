@@ -41,7 +41,7 @@ const Sidebar = ({open, click}) => {
     });
   };
   return (
-    <div className={open ? "sidebar" : "!sidebar"}>
+    <div className={open ? "sidebar" : "collapse"}>
       {/* <li><AiOutlineHome/>Home</li>
       <li> <AiOutlineInfoCircle/>About</li>
       <li> <GiPaperBagCrumpled/>Portfolio</li>

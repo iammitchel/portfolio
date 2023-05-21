@@ -29,10 +29,6 @@
   gap: 20px;
 }
 
-.collapse{
-  display: none;
-}
-
 @media screen and (min-width: 800px) {
  .sidebar{
   visibility: hidden;
