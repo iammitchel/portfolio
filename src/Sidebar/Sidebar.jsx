@@ -1,14 +1,13 @@
 import React from 'react'
 import './Sidebar.css'
-import {
-  AiOutlineHome,
-  AiOutlineInfoCircle,
-  AiOutlineContacts,
-} from "react-icons/ai";
-import { GiPaperBagCrumpled } from "react-icons/gi";
+// import {
+//   AiOutlineHome,
+//   AiOutlineInfoCircle,
+//   AiOutlineContacts,
+// } from "react-icons/ai";
+// import { GiPaperBagCrumpled } from "react-icons/gi";
 
 const Sidebar = ({open, click}) => {
-   console.log(click);
   const navLinks = [
     {
       display: "Home",
