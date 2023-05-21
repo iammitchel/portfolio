@@ -10,7 +10,7 @@
 }
 
 .menu{
-    display: none;
+    visibility: hidden;
     color: #fff;
     font-size: 30px;
 }
@@ -51,42 +51,12 @@
 
 }
 
-@media only screen and(max-width:769px){
-    .nav__menu{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #7865ff69;
-        z-index: 88888;
-    }
-
+ @media screen and (max-width: 800px) {
     .nav__list{
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        background: #132347;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 
-}
-
-@media only screen and(max-width:375px){
-    
-    .nav__list {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        background: #132347;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column
+    .menu{
+        visibility: visible;
     }
-}
+ }

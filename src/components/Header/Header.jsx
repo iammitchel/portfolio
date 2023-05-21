@@ -27,7 +27,8 @@ const navLinks =[
     },
 ];
 
-const Header = () => {
+const Header = ({ click }) => {
+
   const headerRef = useRef(null);
 
   useEffect(() => {
@@ -67,10 +68,8 @@ return (
     <Container>
       <div className="navigation d-flex align-items-center justify-content-between">
         <div className="logo">
-          {" "}
           <h5>PORTFOLIO</h5>
         </div>
-
         <div className="nav__menu">
           <ul className="nav__list">
             {navLinks.map((item, index) => (
@@ -82,8 +81,8 @@ return (
             ))}
           </ul>
         </div>
-        <div className='menu'>
-          <AiOutlineMenu />
+        <div className="menu">
+          <AiOutlineMenu onClick={click} />
         </div>
       </div>
     </Container>
