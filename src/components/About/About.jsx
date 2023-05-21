@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import './about.css'
 
 import { Container,Row,Col } from 'reactstrap'
-import aboutImg from '../../assests/Images/michy1.png'
+import aboutImg from '../../assests/Images/mitch2.jpg'
 
 import Education from './Education'
 import Skills from './Skills'
