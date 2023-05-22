@@ -52,11 +52,11 @@ const HeroSection = () => {
                 CSS, and JavaScript, the core building blocks of front-end
                 development. I have a strong command of HTML5 and CSS3,
                 utilizing their knowledge to create semantic and accessible web
-                pages. I am well-versed in JavaScript framework such as React,
+                pages. I am well-versed in JavaScript frameworks such as React,
                 enabling me to develop dynamic and interactive user interfaces.{" "}
                 <br />
                 <br />
-                I have a keen eye for design and understands the importance of
+                I have a keen eye for design and understand the importance of
                 user experience (UX) in web development. I collaborate closely
                 with UX/UI designers, translating their mockups and wireframes
                 into pixel-perfect and responsive web designs. I have experience
@@ -66,16 +66,16 @@ const HeroSection = () => {
                 <br />
                 In addition to my technical skills, I possess strong
                 problem-solving abilities and an analytical mindset. I am adept
-                at debugging and troubleshooting, able to identify and resolve
+                at debugging and troubleshooting,and able to identify and resolve
                 front-end issues efficiently. I stay up-to-date with the latest
                 industry trends, attending conferences and participating in
-                online communities to expand their knowledge and skills. <br />
+                online communities to expand my knowledge and skills. <br />
                 <br />
                 Overall, I am a dedicated front-end developer with a strong
                 foundation in front-end technologies, a keen eye for design, and
                 a commitment to delivering high-quality user experiences. My
                 technical proficiency, problem-solving abilities, and
-                collaborative nature make me a valuable asset to any
+                collaborative nature makes me a valuable asset to any
                 development team.
               </p>
             </div>
